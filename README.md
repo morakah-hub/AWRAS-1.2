@@ -25,7 +25,7 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 - **JB Weld** on the structural joints instead of epoxy, with weights holding alignment while it cures.
 
 <p align="center">
-  <img src="images/awras%201%202%20parts%20getting%20glued.jpeg" alt="Printed sections laid out before glue-up" width="600"/>
+ <img src="images/awras1.2%20parts.jpeg" alt="AWRAS 1.2 printed parts laid out" width="700"/>
 </p>
 
 <p align="center">
