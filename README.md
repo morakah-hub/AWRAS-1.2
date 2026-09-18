@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/first%20flight-imminent-brightgreen)
 
 <p align="center">
-  <img src="images/awras1%202%20parts.jpeg" alt="AWRAS 1.2 printed parts laid out" width="700"/>
+ <img src="images/awras1.2%20parts.jpeg" alt="AWRAS 1.2 printed parts laid out" width="700"/>
 </p>
 
 ---
