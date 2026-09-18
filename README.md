@@ -29,7 +29,7 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 </p>
 
 <p align="center">
-  <img src="images/awras%201%202%20jbweld%20settling.jpeg" alt="Airframe held with weights while JB Weld cures" width="500"/>
+ <img src="images/awras%201.2%20jbweld%20settling.jpeg" alt="Airframe held with weights while JB Weld cures" width="500"/>
 </p>
 
 ---
