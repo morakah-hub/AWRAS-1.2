@@ -1,12 +1,12 @@
 # AWRAS 1.2
 
-**The one that flies. Built at UMass, assembly in progress.**
+**The one that flies. Built at UMass, ready for first flight.**
 
 ![Version](https://img.shields.io/badge/version-1.2-blue)
 ![Status](https://img.shields.io/badge/first%20flight-imminent-brightgreen)
 
 <p align="center">
- <img src="images/awras1.2%20parts.jpeg" alt="AWRAS 1.2 printed parts laid out" width="700"/>
+  <img src="images/awras1.2%20parts.jpeg" alt="AWRAS 1.2 printed parts laid out" width="700"/>
 </p>
 
 ---
@@ -25,12 +25,20 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 - **JB Weld** on the structural joints instead of epoxy, with weights holding alignment while it cures.
 
 <p align="center">
- <img src="images/awras%201.2%20parts%20getting%20glued.jpeg" alt="Printed sections laid out before glue-up" width="600"/>
+  <img src="images/awras%201.2%20parts%20getting%20glued.jpeg" alt="Printed sections laid out before glue-up" width="600"/>
 </p>
 
 <p align="center">
- <img src="images/awras%201.2%20jbweld%20settling.jpeg" alt="Airframe held with weights while JB Weld cures" width="500"/>
+  <img src="images/awras%201.2%20jbweld%20settling.jpeg" alt="Airframe held with weights while JB Weld cures" width="500"/>
 </p>
+
+---
+
+## Motor run-up
+
+Hand-held throttle test — both motors spinning up, airframe assembled and wired.
+
+📹 **[Run-up videos (Google Drive)](https://drive.google.com/drive/folders/1H33g_RjYtuLtiPmjm7w3s-vO929V_Xyw?usp=drive_link)**
 
 ---
 
@@ -38,8 +46,9 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 
 - [x] All parts printed
 - [x] Airframe glued
-- [ ] Electronics installed and wired
-- [ ] Ground tests — control surfaces, motor direction, failsafe, range
+- [x] Electronics installed and wired
+- [x] Motor run-up
+- [ ] Ground tests — control surfaces, failsafe, range
 - [ ] First flight
 
-**First flight expected within two weeks.** Photos and results land here after.
+**First flight expected within two weeks.** Footage and results land here after.
