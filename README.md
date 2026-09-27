@@ -71,10 +71,10 @@ Hand-held throttle test with both motors running, airframe assembled and wired.
 
 Both attempts were hand launches. Neither reached flying speed.
 
-| # | Date | Throttle at release | What happened | Damage |
-| --- | --- | --- | --- | --- |
-| 1 | ___ | ___ | ___ | Nose broke |
-| 2 | ___ | ___ | ___ | ___ |
+| # | Date |  What happened | Damage |
+| --- | --- |  --- | --- |
+| 1 | September 23rd | Not enough launch speed | Nose broke |
+| 2 | September 25th | Not enough launch speed | Nose broke|
 
 📹 [Attempt video](images/AWRAS-3rd-Attempt.mp4)
 
