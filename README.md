@@ -42,9 +42,8 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 
 | Item | Value |
 | --- | --- |
-| All-up weight | ___ g (1.0 design estimate: ~1,200 g) |
-| Measured CG | ___ mm aft of nose tip (1.0 target: 273–287 mm) |
-| Propellers | ___ |
+| All-up weight | 1,284 g (1.0 design estimate: ~1,200 g) |
+| Propellers | 7in |
 | Launch method | Hand launch (attempts 1–2) |
 
 <p align="center">
@@ -55,7 +54,7 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 
 ## Ground testing
 
-Hand-held throttle test with both motors running, airframe assembled and wired.
+Hand-held throttle test with both motors running, airframe assembled and wired. Control surfaces, failsafe, and range checked before the first attempt.
 
 📹 [Thrust test](images/ThrustTest-Awras.mp4) · [More footage (Google Drive)](https://drive.google.com/drive/folders/1H33g_RjYtuLtiPmjm7w3s-vO929V_Xyw?usp=drive_link)
 
@@ -71,18 +70,18 @@ Hand-held throttle test with both motors running, airframe assembled and wired.
 
 Both attempts were hand launches. Neither reached flying speed.
 
-| # | Date |  What happened | Damage |
-| --- | --- |  --- | --- |
-| 1 | September 23rd | Not enough launch speed | Nose broke |
-| 2 | September 25th | Not enough launch speed | Nose broke|
+| # | Date | Throttle at release | What happened | Damage |
+| --- | --- | --- | --- | --- |
+| 1 | September 23 | Below full | Didn't reach flying speed after release | Nose broke |
+| 2 | September 25 | Full | Still didn't reach flying speed after release | Nose broke |
 
 📹 [Attempt video](images/AWRAS-3rd-Attempt.mp4)
 
-**Working diagnosis:** a hand throw doesn't give the aircraft enough speed at release. This is not confirmed yet. CG, elevon trim, and flight-controller correction direction are being checked against the footage before the next attempt.
+**Diagnosis:** a hand throw doesn't give this aircraft enough speed at release. Attempt 1 was also launched below full throttle. Attempt 2 fixed that and still fell short, so throttle alone isn't the answer. The plane came out 84 g (about 7%) heavier than the 1.0 estimate, which raises the speed it needs to fly by roughly 3–4% and makes the problem slightly worse.
 
 ### Nose repair
 
-The nose broke on the first attempt. It was reinforced with carbon fiber and epoxy before the second.
+The nose broke on both attempts. After the first, it was reinforced with carbon fiber and epoxy.
 
 <p align="center">
   <img src="images/Carbonfiber-reinfocement-AWRAS.jpeg" alt="Carbon fiber and epoxy reinforcement around the nose" width="500"/>
@@ -104,6 +103,7 @@ The nose broke on the first attempt. It was reinforced with carbon fiber and epo
 - [x] Airframe glued
 - [x] Electronics installed and wired
 - [x] Motor run-up
+- [x] Ground tests — control surfaces, failsafe, range
 - [x] Hand-launch attempts (2) — did not fly
 - [x] Nose reinforced with carbon fiber after attempt 1
 - [ ] Launch catapult built
