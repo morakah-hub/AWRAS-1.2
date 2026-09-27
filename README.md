@@ -57,7 +57,7 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 
 Hand-held throttle test with both motors running, airframe assembled and wired.
 
-📹 [Thrust test](images/ThrustTest-Awras.mp4) · [Earlier run-up videos (Google Drive)](https://drive.google.com/drive/folders/1H33g_RjYtuLtiPmjm7w3s-vO929V_Xyw?usp=drive_link)
+📹 [Thrust test](images/ThrustTest-Awras.mp4) · [More footage (Google Drive)](https://drive.google.com/drive/folders/1H33g_RjYtuLtiPmjm7w3s-vO929V_Xyw?usp=drive_link)
 
 📹 [Walkaround](images/Awras-clean.mp4)
 
@@ -104,7 +104,6 @@ The nose broke on the first attempt. It was reinforced with carbon fiber and epo
 - [x] Airframe glued
 - [x] Electronics installed and wired
 - [x] Motor run-up
-- [ ] Ground tests — control surfaces, failsafe, range
 - [x] Hand-launch attempts (2) — did not fly
 - [x] Nose reinforced with carbon fiber after attempt 1
 - [ ] Launch catapult built
