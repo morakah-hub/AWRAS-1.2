@@ -1,9 +1,9 @@
 # AWRAS 1.2
 
-**Built at UMass. Catapult launch got it flying — a control issue brought it down. Rebuilding.**
+**Built at UMass. Catapult launch got it flying — a control issue brought it down. Continued in [1.3](https://github.com/morakah-hub/AWRAS-1.3).**
 
 ![Version](https://img.shields.io/badge/version-1.2-blue)
-![Status](https://img.shields.io/badge/status-rebuilding-orange)
+![Status](https://img.shields.io/badge/status-crashed%20%E2%80%94%20continued%20in%201.3-lightgrey)
 
 <p align="center">
   <img src="images/CG-Test%20%26%20ready%20to%20fly%20plane.jpeg" alt="AWRAS 1.2 balanced on the CG test, ready to fly" width="700"/>
@@ -15,7 +15,7 @@
 
 Same aircraft as [1.1](https://github.com/morakah-hub/AWRAS-1.1), reprinted here after the Qatar airframe stayed behind. The electronics came back with me and went straight into this one.
 
-Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
+Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0). The rebuild is in [1.3](https://github.com/morakah-hub/AWRAS-1.3).
 
 ---
 
@@ -66,20 +66,6 @@ Hand-held throttle test with both motors running, airframe assembled and wired. 
 
 ---
 
-## Launch catapult
-
-Built after the two hand launches fell short on speed. It did its job: attempt 3 left the rail fast enough to fly.
-
-<p align="center">
-  <img src="images/catapul_system.jpeg" alt="AWRAS launch catapult" width="600"/>
-</p>
-
-<p align="center">
-  <img src="images/catapult_system_2.jpeg" alt="AWRAS launch catapult, second view" width="600"/>
-</p>
-
----
-
 ## Flight attempts
 
 | # | Date | Launch | Throttle at release | What happened | Damage |
@@ -90,29 +76,46 @@ Built after the two hand launches fell short on speed. It did its job: attempt 3
 
 📹 [Attempt video](images/AWRAS-3rd-Attempt.mp4)
 
-**Attempts 1–2:** a hand throw didn't give this aircraft enough speed at release. Attempt 1 was also launched below full throttle. Attempt 2 fixed that and still fell short, so throttle alone wasn't the answer. The plane came out 84 g (about 7%) heavier than the 1.0 estimate, which raises the speed it needs to fly by roughly 3–4% and made the problem slightly worse.
+### Attempts 1–2: not enough launch speed
 
-**Attempt 3:** the catapult solved the launch speed problem. The aircraft flew, but a control issue caused the crash. TBD — cause and fix.
-
-<p align="center">
-  <img src="images/destroyedplane.jpeg" alt="AWRAS 1.2 after the attempt 3 crash" width="500"/>
-</p>
+A hand throw didn't give this aircraft enough speed at release. Attempt 1 was also launched below full throttle. Attempt 2 fixed that and still fell short, so throttle alone wasn't the answer. The plane came out 84 g (about 7%) heavier than the 1.0 estimate, which raises the speed it needs to fly by roughly 3–4% and made the problem slightly worse.
 
 ### Nose repair
 
-The nose broke on attempts 1 and 2. After the first, it was reinforced with carbon fiber and epoxy.
+The nose broke on attempts 1 and 2. After the first, it was reinforced with carbon fiber and epoxy. The repaired nose flew on attempt 3.
 
 <p align="center">
   <img src="images/Carbonfiber-reinfocement-AWRAS.jpeg" alt="Carbon fiber and epoxy reinforcement around the nose" width="500"/>
 </p>
 
+### Launch catapult
+
+Built to fix the launch speed problem. It did its job: attempt 3 left the rail fast enough to fly.
+
+<p align="center">
+  <img src="images/catapul_system.jpeg" alt="AWRAS launch catapult" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/catapult_system_2.jpeg" alt="AWRAS launch catapult, second view" width="600"/>
+</p>
+
+### Attempt 3: control issue
+
+The catapult solved the launch speed problem. The aircraft flew, but a control issue caused the crash. TBD — cause.
+
+<p align="center">
+  <img src="images/destroyedplane.jpeg" alt="AWRAS 1.2 after the attempt 3 crash" width="500"/>
+</p>
+
 ---
 
-## Next
+## What carries forward to 1.3
 
-- **Find and fix the control issue** before the next flight.
-- **Rebuild:** reprint the airframe with changes.
-- **Possible motor upgrade** for more thrust, depending on what the thrust numbers show.
+- **The catapult.** Launch speed is solved.
+- **The control issue.** It needs to be found and fixed before 1.3 flies.
+
+Rebuild and changes: [AWRAS 1.3](https://github.com/morakah-hub/AWRAS-1.3).
 
 ---
 
@@ -124,13 +127,7 @@ The nose broke on attempts 1 and 2. After the first, it was reinforced with carb
 - [x] Motor run-up
 - [x] Ground tests — control surfaces, failsafe, range
 - [x] Hand-launch attempts (2) — did not fly
-- [x] Nose reinforced with carbon fiber after attempt 1
+- [x] Nose reinforced with carbon fiber
 - [x] Launch catapult built
 - [x] Catapult launch (attempt 3) — flew ~10–15 m, crashed
-- [ ] Control issue found and fixed
-- [ ] Airframe rebuilt
-- [ ] First controlled flight
-- [x] Hand-launch attempts (2) — did not fly
-- [x] Nose reinforced with carbon fiber after attempt 1
-- [ ] Launch catapult built
-- [ ] First flight
+- [x] Closed out. Continued in [1.3](https://github.com/morakah-hub/AWRAS-1.3)
