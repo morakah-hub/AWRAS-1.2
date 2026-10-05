@@ -1,9 +1,9 @@
 # AWRAS 1.2
 
-**Built at UMass. Two launch attempts, no flight yet — catapult next.**
+**Built at UMass. Catapult launch got it flying — a control issue brought it down. Rebuilding.**
 
 ![Version](https://img.shields.io/badge/version-1.2-blue)
-![Status](https://img.shields.io/badge/status-flight%20testing-orange)
+![Status](https://img.shields.io/badge/status-rebuilding-orange)
 
 <p align="center">
   <img src="images/CG-Test%20%26%20ready%20to%20fly%20plane.jpeg" alt="AWRAS 1.2 balanced on the CG test, ready to fly" width="700"/>
@@ -43,8 +43,8 @@ Design and analysis are in [1.0](https://github.com/morakah-hub/AWRAS-1.0).
 | Item | Value |
 | --- | --- |
 | All-up weight | 1,284 g (1.0 design estimate: ~1,200 g) |
-| Propellers | 7in |
-| Launch method | Hand launch (attempts 1–2) |
+| Propellers | 7 in |
+| Launch method | Hand launch (attempts 1–2), catapult (attempt 3) |
 
 <p align="center">
   <img src="images/AWRAS-Weight.jpeg" alt="AWRAS 1.2 on the scale" width="400"/>
@@ -66,22 +66,41 @@ Hand-held throttle test with both motors running, airframe assembled and wired. 
 
 ---
 
+## Launch catapult
+
+Built after the two hand launches fell short on speed. It did its job: attempt 3 left the rail fast enough to fly.
+
+<p align="center">
+  <img src="images/catapul_system.jpeg" alt="AWRAS launch catapult" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/catapult_system_2.jpeg" alt="AWRAS launch catapult, second view" width="600"/>
+</p>
+
+---
+
 ## Flight attempts
 
-Both attempts were hand launches. Neither reached flying speed.
-
-| # | Date | Throttle at release | What happened | Damage |
-| --- | --- | --- | --- | --- |
-| 1 | September 23 | Below full | Didn't reach flying speed after release | Nose broke |
-| 2 | September 25 | Full | Still didn't reach flying speed after release | Nose broke |
+| # | Date | Launch | Throttle at release | What happened | Damage |
+| --- | --- | --- | --- | --- | --- |
+| 1 | September 23 | Hand | Below full | Didn't reach flying speed after release | Nose broke |
+| 2 | September 25 | Hand | Full | Still didn't reach flying speed after release | Nose broke |
+| 3 | TBD | Catapult | TBD | Flew about 10–15 m, then a control issue brought it down | Airframe destroyed |
 
 📹 [Attempt video](images/AWRAS-3rd-Attempt.mp4)
 
-**Diagnosis:** a hand throw doesn't give this aircraft enough speed at release. Attempt 1 was also launched below full throttle. Attempt 2 fixed that and still fell short, so throttle alone isn't the answer. The plane came out 84 g (about 7%) heavier than the 1.0 estimate, which raises the speed it needs to fly by roughly 3–4% and makes the problem slightly worse.
+**Attempts 1–2:** a hand throw didn't give this aircraft enough speed at release. Attempt 1 was also launched below full throttle. Attempt 2 fixed that and still fell short, so throttle alone wasn't the answer. The plane came out 84 g (about 7%) heavier than the 1.0 estimate, which raises the speed it needs to fly by roughly 3–4% and made the problem slightly worse.
+
+**Attempt 3:** the catapult solved the launch speed problem. The aircraft flew, but a control issue caused the crash. TBD — cause and fix.
+
+<p align="center">
+  <img src="images/destroyedplane.jpeg" alt="AWRAS 1.2 after the attempt 3 crash" width="500"/>
+</p>
 
 ### Nose repair
 
-The nose broke on both attempts. After the first, it was reinforced with carbon fiber and epoxy.
+The nose broke on attempts 1 and 2. After the first, it was reinforced with carbon fiber and epoxy.
 
 <p align="center">
   <img src="images/Carbonfiber-reinfocement-AWRAS.jpeg" alt="Carbon fiber and epoxy reinforcement around the nose" width="500"/>
@@ -91,9 +110,9 @@ The nose broke on both attempts. After the first, it was reinforced with carbon 
 
 ## Next
 
-- **Launch catapult**, so launch speed is repeatable instead of depending on the throw.
+- **Find and fix the control issue** before the next flight.
+- **Rebuild:** reprint the airframe with changes.
 - **Possible motor upgrade** for more thrust, depending on what the thrust numbers show.
-- Third attempt next weekend.
 
 ---
 
@@ -104,6 +123,13 @@ The nose broke on both attempts. After the first, it was reinforced with carbon 
 - [x] Electronics installed and wired
 - [x] Motor run-up
 - [x] Ground tests — control surfaces, failsafe, range
+- [x] Hand-launch attempts (2) — did not fly
+- [x] Nose reinforced with carbon fiber after attempt 1
+- [x] Launch catapult built
+- [x] Catapult launch (attempt 3) — flew ~10–15 m, crashed
+- [ ] Control issue found and fixed
+- [ ] Airframe rebuilt
+- [ ] First controlled flight
 - [x] Hand-launch attempts (2) — did not fly
 - [x] Nose reinforced with carbon fiber after attempt 1
 - [ ] Launch catapult built
